@@ -45,6 +45,10 @@
 											<button type="button" class="btn btn-danger confirm-delete btn-md" value="<?= $product->id ?>" >Delete</button>
 
 
+
+
+
+											
 										
 										</td>
 
