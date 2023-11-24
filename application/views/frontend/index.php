@@ -43,6 +43,9 @@
 										<td>
 											<a href="<?=base_url('products/edit/'.$product->id)?>" class="btn btn-success btn-md">Edit</a>
 											<button type="button" class="btn btn-danger confirm-delete btn-md" value="<?= $product->id ?>" >Delete</button>
+
+
+										
 										</td>
 
 									</tr>
