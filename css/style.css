@@ -1,0 +1,48 @@
+/* Add this CSS in your stylesheet or in a <style> tag in the <head> section */
+
+/* Alert box styling */
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+/* Close button styling */
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+}
+
+/* Close button on hover */
+.close:hover {
+    color: #000;
+}
+
+/* Show/hide animation for alert */
+.fade {
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Hide the alert when it's closed */
+.alert-dismissible .close {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.alert-dismissible .close:hover {
+    opacity: 0.75;
+}
+
+#productTable td img {
+	max-width: 150px; /* Set a maximum width */
+	max-height: 100px; /* Set a maximum height */
+	width: auto; /* Ensure images scale proportionally */
+	height: auto; /* Ensure images scale proportionally */
+	display: block; /* Ensure proper spacing within table cells */
+	margin: 0 auto; /* Center images horizontally */
+}
