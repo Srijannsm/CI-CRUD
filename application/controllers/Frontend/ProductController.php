@@ -125,7 +125,7 @@ class ProductController extends CI_Controller
 
 			$product = new ProductModel;
 			$res = $product->updateProduct($id, $data);
-			$this->session->set_flashdata('status', 'Product Updated Successfully');
+			$this->session->set_flashdata('status', 'Product 	 Successfully');
 			redirect(base_url('products/index'));
 		} else {
 			$this->create();

@@ -13,6 +13,9 @@
 						<?php endif;?>
 						<h5>
 							Products Table
+							<a href="<?= base_url('welcome') ?>" class="btn btn-success float-right ml-2">
+							Home
+						</a>
 							<a href="<?= base_url('products/create') ?>" class="btn btn-primary float-right">Add Products</a>
 						</h5>
 					</div>

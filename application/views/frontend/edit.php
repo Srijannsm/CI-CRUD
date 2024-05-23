@@ -5,6 +5,9 @@
 				<div class="card-header">
 					<h5>
 						Edit Product
+						<a href="<?= base_url('welcome') ?>" class="btn btn-success float-right btn-sm ml-2">
+							Home
+						</a>
 						<a href="<?= base_url('products/index') ?>" class="btn btn-danger float-right btn-sm">
 							Back
 						</a>

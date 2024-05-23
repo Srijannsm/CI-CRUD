@@ -14,4 +14,5 @@
     <title>Image Uploading in CI</title>
   </head>
   <body>
+		
     <!-- <h1>Hello, world!</h1> -->

@@ -5,6 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 	<style type="text/css">
 
@@ -80,7 +81,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</style>
 </head>
 <body>
-
+  <a class="btn btn-success float-right btn-sm" href="<?= base_url('products/index'); ?>">Products</a>
 <div id="container">
 	<h1>Welcome to CodeIgniter!</h1>
 
